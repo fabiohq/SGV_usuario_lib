@@ -56,7 +56,8 @@ public class Util {
 			 * System.out.println(getMiliSegundos());
 			 */
 		//while(true) {
-		String r = getPk();
+		Calendar c = Calendar.getInstance();
+		String r = getPk(c);
 		System.out.println(r);
 		}
 	}
